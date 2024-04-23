@@ -1,0 +1,28 @@
+# https://alacritty.org/config-alacritty.html
+
+[env]
+term = "xterm-256color"
+
+[window]
+dimensions = { columns = 207, lines = 60 }
+padding = { x = 12, y = 12 }
+dynamic_padding = true
+decorations = "None"
+
+[font]
+normal = { family = "Berkeley Mono" }
+size = 14
+
+[colors.primary]
+background = "#191724"
+foreground = "#e0def4"
+
+[colors.normal]
+black   = "#191724"
+white   = "#e0def4"
+blue    = "#ebbcba"
+yellow  = "#f6c177"
+red     = "#eb6f92"
+magenta = "#c4a7e7"
+green   = "#A4BF5B"
+cyan    = "#9ccfd8"
